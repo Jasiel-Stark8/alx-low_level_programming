@@ -7,13 +7,13 @@
  */
 int main(void)
 {
-  char alph[26];
-  int letter;
-  for (letter = 0; letter < 26; letter++)
-    {
-      alph[letter] = 'a' + letter;
-      putchar(alph[letter]);
-    }
-  putchar('\n');
-  return (0);
+char alph[26];
+int letter;
+for (letter = 0; letter < 26; letter++)
+{
+alph[letter] = 'a' + letter;
+putchar(alph[letter]);
+}
+putchar('\n');
+return (0);
 }
