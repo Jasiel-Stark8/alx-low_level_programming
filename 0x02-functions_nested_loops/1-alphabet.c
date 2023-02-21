@@ -5,9 +5,9 @@
  *
  * Return: Always 0.
  */
-int main(void)
+void print_alphabet(void)
 {
-  for (int letter = 'a'; lettter < 27; letter++);
+  for (char letter = 'a'; lettter < 27; letter++);
     _putchar(letter);
     
   _putchar('\n');
