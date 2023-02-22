@@ -1,7 +1,5 @@
-#ifndef main_h
-#define main_h
-
-/* Declarations for functions */
+#ifndef MAIN_h
+#define MAIN_H
 
 int _putchar(char c);
 void print_alphabet(void);
