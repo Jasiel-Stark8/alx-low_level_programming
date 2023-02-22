@@ -1,5 +1,5 @@
-File Edit Options Buffers Tools C Help                             #incllude "main.h"
-/** 
+#incllude "main.h"
+/**
  * print_sign - Entr point
  * @n: carrier variable
  * Description: prints the sign of a number
