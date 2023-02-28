@@ -1,9 +1,10 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * reset_to_98 - updates n's value to 98
+ * @n: integer pointer to variable that is to be updated
+ * 
+ * Return: Nothing
  */
 void reset_to_98(int *n)
 {
