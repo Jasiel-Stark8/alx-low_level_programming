@@ -9,6 +9,7 @@
  *
  * Return: Pointer to the resulting string.
  */
+
 char *_strcat(char *dest, char *src)
 {
     int dest_len = strlen(dest);
