@@ -7,18 +7,19 @@
  */
 int main(void)
 {
-	char c;
-	char d = '0';
+	char letter;
+	char digit = '0';
 
-	while (d <= '9')
+	while (digit <= '9')
 	{
-		putchar(d);
-		d++;
+		putchar(digit);
+		digit++;
 	}
-	for (c = 'a'; c <= 'f'; c++)
+	for (letter = 'a'; letter <= 'f'; letter++)
 	{
-		putchar(c);
+		putchar(letter);
 	}
 	putchar('\n');
 	return (0);
 }
+// Hexadecimal Logic | Digits [1 - 9] and Letters [a - f]
