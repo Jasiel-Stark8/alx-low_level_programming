@@ -9,19 +9,19 @@ int _sqrt_recursion(int n)
 {
 if (n < 0)
 {
-return -1;
+return (-1);
 }
 else if (n == 0 || n == 1)
 {
-return n;
+return (n);
 }
 else
 {
 int i = 1;
-while (i <= n / 2 && i * i < n)
+if (i <= n / 2 && i * i < n)
 {
 i++;
 }
-return (i * i == n) ? i : _sqrt_recursion(n - 1);
+return ((i * i == n) ? i : _sqrt_recursion(n - 1));
 }
 }
