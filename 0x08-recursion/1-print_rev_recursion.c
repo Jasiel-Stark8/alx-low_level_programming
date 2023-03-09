@@ -1,8 +1,7 @@
 #include "main.h"
 /**
- *  _print_rev_recursion - prints recursive reverse string followed by a new line
- * @s: string to be reversed
- * Returns: Always True
+ *  _print_rev_recursion - Prints recursive reverse string
+ * @s: String to be reversed
  */
 void _print_rev_recursion(char *s)
 {
