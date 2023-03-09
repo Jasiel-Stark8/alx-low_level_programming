@@ -2,6 +2,8 @@
 /**
  * _strlen_recursion - Prints the length of a string
  * @s: String to be counted
+ *
+ * Return: Length of string
  */
 int _strlen_recursion(char *s)
 {
