@@ -1,6 +1,7 @@
 #!/bin/bash
 
-for file in create_static_lib.sh
+files=(create_static_lib.sh liball.a)
+for file in "${files[@]}"
 do
     chmod u+x "$file"
 done
