@@ -39,5 +39,5 @@ using them using the `ar`, `ranlib`, and `nm` commands.
   * [create_static_lib.sh](./create_static_lib.sh): Bash script that creates a static
   library called `liball.a` from all the `.c` files in the current directory.
 
-  * The exe.sh file is a bash automation script I create to loop through files in my directory and make them `executable`.
-  LOL Life Must Be Simple.
+  * The `exe.sh` file is a bash automation script I create to loop through files in my directory and make them `executable`.
+  LOL, Life Must Be Simple.
