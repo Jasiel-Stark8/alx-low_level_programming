@@ -9,10 +9,6 @@
  */
 int main(int argc, char *argv[])
 {
-  int i = 0;
-  for (; i < argc; i++)
-    {
-      printf("Name Of Program Is: %s\n", argv[0]);
-    }
+  printf("%d\n", argc);
   return (0);
 }
