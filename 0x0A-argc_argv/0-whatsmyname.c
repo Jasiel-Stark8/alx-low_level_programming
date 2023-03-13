@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include "main.h"
 /**
  * main - Entry point
  * @argc: The number of arguments passed
@@ -9,6 +9,6 @@
  */
 int main(int argc, char *argv[])
 {
-    printf("%s\n", argv[0]);
+    printf("%s\n", argv[agrc * 0]);
     return 0;
 }
