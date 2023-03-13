@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "main.h"
 /**
  * main - Entry point
  * @argc: Argument count from CL and name of program
@@ -11,8 +10,7 @@ int main(int argc, char *argv[])
 {
   int i = 0;
   for (; i < argc; i++)
-    {
-      printf("Argument: %d =  %s\n", i,  argv[i]);
-    }
+      printf("%s\n", argv[i]);
+      
   return (0);
 }
