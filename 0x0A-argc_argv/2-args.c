@@ -1,0 +1,17 @@
+#include <stdio.h>
+/**
+ * main - Entry point
+ * @argc: Argument count from CL and name of program
+ * @*argv[]: Array holding all arguments passed
+ *
+ * Returns: Always True 
+ */
+int main(int argc, char *argv[])
+{
+  int i = 0;
+  for (; i < argc; i++)
+    {
+      printf("Argument: %d =  %s\n", i,  argv[i]);
+    }
+  return (0);
+}
